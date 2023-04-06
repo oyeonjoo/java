@@ -9,11 +9,11 @@ public class C02MinusMinus {
 		System.out.println(i);
 		
 		i = 0;
-		int j = --i; //--가 먼저 할당이 나중
+		int j = --i; // --가 먼저 할당이 나중
 		System.out.printf("i: %d, j: %d\n", i, j);
 		
-		i = 0;
-		j = i--; //할당이 먼저 --가 나중 
+		i = 0; // 새로 변수를 만드는 것
+		j = i--; // 이미 존재하는 변수를 사용하는 것, 할당이 먼저 --가 나중 
 		System.out.printf("i: %d, j: %d\n", i, j);
 	}
 }

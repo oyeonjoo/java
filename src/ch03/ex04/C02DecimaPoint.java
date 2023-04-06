@@ -4,7 +4,7 @@ public class C02DecimaPoint {
 	public static void main(String[] args) {
 		double pi = 3.141592;
 		
-		double shortPi = (int)(pi * 10) / 10.0; //소숫점이하 1자리.  pi*10 -> int ->  / 10.0
+		double shortPi = (int)(pi * 10) / 10.0; //소숫점이하 1자리로 고정하는 법.  pi*10 -> int ->  / 10.0
 		System.out.println(shortPi);
 		
 		//[과제]3.141

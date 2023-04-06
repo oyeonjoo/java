@@ -7,7 +7,7 @@ public class Unicode {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("문자: ");
-		char ch = sc.nextLine().charAt(0); // *.charAt(n)은 String타입 n번째문자를 Char타입으로 전환.*
+		char ch = sc.nextLine().charAt(0); // .charAt(n)은 String타입 n번째 문자를 char타입으로 전환
 		
 		int unicode = ch;
 		System.out.printf("%c의 unicode는 %d", ch, unicode);
