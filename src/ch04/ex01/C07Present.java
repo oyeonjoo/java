@@ -21,7 +21,7 @@ public class C07Present {
 			System.out.print("1.삼성, 2.LG\n> ");
 			subChoice = sc.nextInt();
 			if(subChoice == 1) maker = "삼성";
-			else maker = "LG"; //1,2아닌 숫자입력해도 걍 다 LG로 예외처리할거~
+			else maker = "LG"; //1,2아닌 숫자입력해도 다 LG로 예외처리 할 것이다
 		}
 		prize = maker + " " + prize;
 		System.out.println(prize);

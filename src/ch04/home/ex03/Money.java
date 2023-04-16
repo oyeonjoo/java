@@ -4,10 +4,10 @@ public class Money {
 	public static void main(String[] args) {
 		int price = 30_000;
 		int tot = 0; //º’ø° ¡Â µ∑
-		int tmp = 0; //≤®≥Ω µ∑ (temp/)
+		int tmp = 0; //≤®≥Ω µ∑
 		
 		while(tot < price) {
-			tmp = ((int)(Math.random() * 30) + 1) * 1000; //√÷¥Ò∞™ 3∏∏ø¯ √÷º⁄∞© √µø¯
+			tmp = ((int)(Math.random() * 30) + 1) * 1000; //√÷º“ √µø¯, √÷¥Î 3∏∏ø¯
 			System.out.println(tmp);
 			tot += tmp;
 		}
@@ -27,7 +27,7 @@ public class Money {
 		*/
 	}
 }
-/* (∑£¥˝)
+/*
 ∞˙¡¶] 3∏∏ø¯¬•∏Æ π∞∞«∞™¿ª ƒ°∑Ô∂Û.
 ¡ˆ∞©ø° 5∏∏ø¯±«¿∫ æ¯¥Ÿ.
 ≤®≥Ω µ∑¿« ±«(¡æ∑˘)¿ª ±∏∫∞«œ¡ˆ æ ¥¬¥Ÿ.

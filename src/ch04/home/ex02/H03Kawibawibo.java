@@ -8,7 +8,7 @@ public class H03Kawibawibo {
 		int playerChoice = 0;
 		int appChoice = 0;
 		String result = "";
-		String choice = "";
+		String choice = ""; // 비기는 경우: 0 / 이기는 경우: 1, -2 / 지는 경우: -1, 2 로 추상화
 		
 		System.out.print("1.가위, 2.바위, 3.보\n> ");
 		playerChoice = sc.nextInt();
@@ -24,7 +24,7 @@ public class H03Kawibawibo {
 				result = "Fair.";
 			}
 			
-			switch(playerChoice) { //디코딩. ?(숫자를 다시 문자로?)
+			switch(playerChoice) { //디코딩. 숫자를 다시 문자로 바꾸는 것
 			case 1: choice = "가위"; break;
 			case 2: choice = "바위"; break;
 			case 3: choice = "보";
@@ -44,7 +44,7 @@ public class H03Kawibawibo {
 		System.out.println(result);
 	}
 }
-//디코딩 부분은 출력부분에서 하기!!!!!!!!!!!!
+//디코딩 부분은 출력부분에서 하기
 /*
 과제] 앱과 가위바위보를 하라.
 게임 결과를 알려준다.

@@ -13,7 +13,7 @@ public class C04Condition {
 		
 		int x = 0;
 		int y = 0;
-		if((x = 1 + 2) > 0 || (y = 1 - 2) > 0) //좋은 코드는 아님.
+		if((x = 1 + 2) > 0 || (y = 1 - 2) > 0) // 앞부분이 true이기 때문에 뒷부분은 실행X. 좋은 코드는 아님.
 			System.out.printf("x: %d, y: %d\n", x, y);
 		
 		//과제 s값이 he, HE, He, hE중에 하나면, he를 말하라.
@@ -28,7 +28,7 @@ public class C04Condition {
 		s = "hello";
 		if(!s.equals(""))System.out.println("값이 있다."); //논리부정연산자 "!"붙이기
 		
-		boolean power = false;//토글___? 시 논리연산자 유용
-		if(!power) System.out.println("전원을 켠다."); 
+		boolean power = false; //토글___? 시 논리연산자 유용
+		if(!power) System.out.println("전원을 켜다."); 
 	}
 }

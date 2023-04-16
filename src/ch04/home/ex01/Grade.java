@@ -24,42 +24,40 @@ public class Grade {
 			if(oneDigit >= 8 || tenDigit == 10) grade += "+";
 		else if(0 <= oneDigit && oneDigit < 4) grade += "-";
 		}
-		//if(tenDigit >=8 && tenDigit == 10 | oneDigit >= 8) grade += "+";
-		//else if(0 <= oneDigit && oneDigit < 4) grade += "-";
+
 		System.out.println(grade);
 	}
 		/*
+		Scanner sc = new Scanner(System.in);
+		System.out.print("점수: ");
+		
 		int score = 0;
 		String grade = "";
-		String a = "A";
-		String b = "B";
-		
-		System.out.print("점수: ");
 		score = sc.nextInt();
 		
-		if(score >= 98) grade = a + "+";
-		else if(score >= 94) grade = a;
-		else if(score >= 90) grade = a + "-";
-		else if(score >= 88) grade = b + "+";
-		else if(score >= 84) grade = b;
-		else if(score >= 80) grade = b + "-";
+		if(score >= 98) grade = "A+";
+		else if(score >= 94) grade = "A";
+		else if(score >= 90) grade = "A-";
+		else if(score >= 88) grade = "B+";
+		else if(score >= 84) grade = "B";
+		else if(score >= 80) grade = "-B";
 		else grade = "C";
 		
 		System.out.println(grade);
 		*/
 }
 
-/*
-다음 구간별로 학점을 부여하라.
-98 이상 A+
-94 이상 A
-90 이상 A-
-88 이상 B+
-84 이상 B
-80 이상 B-
-80 미만 C
-----
-
-점수: 100 (입력)
-A+
-*/
+		/*
+		다음 구간별로 학점을 부여하라.
+		98 이상 A+
+		94 이상 A
+		90 이상 A-
+		88 이상 B+
+		84 이상 B
+		80 이상 B-
+		80 미만 C
+		----
+		
+		점수: 100 (입력)
+		A+
+		*/

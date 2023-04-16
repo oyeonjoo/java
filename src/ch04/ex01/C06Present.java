@@ -8,7 +8,7 @@ public class C06Present {
 		int choice = 0;
 		String prize = "";
 		
-		System.out.print("1.냉장고, 2.세탁기\n> "); //냉장고의 코드 값은 1번, 세탁기의 코드값은 2버
+		System.out.print("1.냉장고, 2.세탁기\n> "); //냉장고의 코드 값은 1번, 세탁기의 코드값은 2번
 		choice = sc.nextInt();
 		
 		if(choice == 1) prize = "냉장고";
